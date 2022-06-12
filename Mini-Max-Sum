@@ -1,0 +1,24 @@
+//method for problem
+
+
+
+public static void miniMaxSum(List<int> arr)
+    {
+            long min=arr.Min();
+            long max=arr.Max();
+            long min1=0;
+            long max1=0;
+            long total=0;
+            for (int i = 0; i < 5; i++)
+            {
+                
+                total = total + arr[i];
+            }
+            min1=total-max;
+            max1=total-min;
+
+          Console.WriteLine(min1+" "+max1);
+        
+    }
+
+}
